@@ -1,10 +1,3 @@
-'''
-PyPower Projects
-Emotion Detection Using AI
-'''
-
-#USAGE : python test.py
-
 from keras.models import load_model
 from time import sleep
 from keras.preprocessing.image import img_to_array
@@ -57,29 +50,3 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
